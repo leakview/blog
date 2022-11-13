@@ -11,7 +11,7 @@ app.use(express.static(__dirname + "/public"))
 
 app.get('/', (req, res) => {
     // console.log(__dirname)
-    res.render("index", {titulo: "mi titulo dinamico"});
+    res.render("index", {titulo: "EJEMPLO DE HACKING"});
 })
 
 app.get('/servicios', (req, res) => {
