@@ -19,7 +19,7 @@ app.get('/servicios', (req, res) => {
 })
 
 app.get('/contacto', (req, res) => {
-    res.render("contacto", {tcontacto: "mi respueta desde contacto"});
+    res.render("contacto", {tcontacto: "mi respueta desde contactooo"});
 })
 
 app.use((req, res, next) => {
