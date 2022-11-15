@@ -11,15 +11,15 @@ app.use(express.static(__dirname + "/public"))
 
 app.get('/', (req, res) => {
     // console.log(__dirname)
-    res.render("index", {titulo: "EJEMPLO DE HACKING"});
+    res.render("index");
 })
 
-app.get('/servicios', (req, res) => {
-    res.render("servicios", {tservicios: "mi respueta desde servicios"});
+app.get('/caso1', (req, res) => {
+    res.render("caso1");
 })
 
-app.get('/contacto', (req, res) => {
-    res.render("contacto", {tcontacto: "mi respueta desde contactooo"});
+app.get('/caso2', (req, res) => {
+    res.render("caso2");
 })
 
 app.use((req, res, next) => {

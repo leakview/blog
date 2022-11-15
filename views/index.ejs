@@ -1,86 +1,251 @@
-<%- include("template/cabecera",{tituloweb: 'HOME'}) %> 
-
-<h1 class="text-primary"></h1>
-<center><h2><%= titulo  %> </h2></center>
-
-<!-- tarjetas importadas -->
-<div class="support-grid"></div>
+<%- include("template/cabecera") %> 
 
 
-<p><center> <h4> El texto argumentativo tiene como principal objetivo dar sustento a la tesis formulada por el autor <br>
-mediante la exposición coherente y lógica de justificaciones o razones, que tienen como propósito <br>
-persuadir o convencer al lector sobre un punto de vista predeterminado</h4></center></p>
+<!-- Grid -->
+<div class="w3-row">
 
-<br> <br><br><br>
-
-  <div class="band">
-    <div class="item-1">
-          <a href="https://design.tutsplus.com/articles/international-artist-feature-malaysia--cms-26852" class="card">
-            <div class="thumb" style="background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/210284/flex-1.jpg);"></div>
-            <article>
-              <h1>International Artist Feature: Malaysia</h1>
-              <span>Mary Winkler</span>
-            </article>
-          </a>
-    </div>
-    <div class="item-2">
-          <a href="https://webdesign.tutsplus.com/articles/how-to-conduct-remote-usability-testing--cms-27045" class="card">
-            <div class="thumb" style="background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/210284/users-2.png);"></div>
-            <article>
-              <h1>How to Conduct Remote Usability Testing</h1>
-              <span>Harry Brignull</span>
-            </article>
-          </a>
-    </div>
-    <div class="item-3">
-      <a href="https://design.tutsplus.com/articles/envato-tuts-community-challenge-created-by-you-july-edition--cms-26724" class="card">
-        <div class="thumb" style="background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/210284/flex-5.jpg);"></div>
-        <article>
-          <h1>Created by You, July Edition</h1>
-          <p>Welcome to our monthly feature of fantastic tutorial results created by you, the Envato Tuts+ community! </p>
-          <span>Melody Nieves</span>
-        </article>
-      </a>
-    </div>
-    <div class="item-4">
-          <a href="https://webdesign.tutsplus.com/tutorials/how-to-code-a-scrolling-alien-lander-website--cms-26826" class="card">
-            <div class="thumb" style="background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/210284/landing.png);"></div>
-            <article>
-              <h1>How to Code a Scrolling “Alien Lander” Website</h1>
-              <p>We’ll be putting things together so that as you scroll down from the top of the page you’ll see an “Alien Lander” making its way to touch down.</p>
-              <span>Kezz Bracey</span>
-            </article>
-          </a>
-    </div>
-    <div class="item-5">
-          <a href="https://design.tutsplus.com/tutorials/stranger-things-inspired-text-effect--cms-27139" class="card">
-            <div class="thumb" style="background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/210284/strange.jpg);"></div>
-            <article>
-              <h1>How to Create a “Stranger Things” Text Effect in Adobe Photoshop</h1>
-              <span>Rose</span>
-            </article>
-          </a>
-    </div>
-    <div class="item-6">
-      <a href="https://photography.tutsplus.com/articles/5-inspirational-business-portraits-and-how-to-make-your-own--cms-27338" class="card">
-        <div class="thumb" style="background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/210284/flor.jpg);"></div>
-        <article>
-          <h1>5 Inspirational Business Portraits and How to Make Your Own</h1>
-          
-          <span>Marie Gardiner</span>
-        </article>
-      </a>
-    </div>
-    <div class="item-7">
-      <a href="https://webdesign.tutsplus.com/articles/notes-from-behind-the-firewall-the-state-of-web-design-in-china--cms-22281" class="card">
-        <div class="thumb" style="background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/210284/china.png);"></div>
-        <article>
-          <h1>Notes From Behind the Firewall: The State of Web Design in China</h1>
-          <span>Kendra Schaefer</span>
-        </article>
-      </a>
-    </div>
+<!-- Blog entries -->
+<div class="w3-col l8 s12">
+<!-- Blog entry -->
+<div class="w3-card-4 w3-margin w3-white">
+   
+  <br>
+  <div class="w3-container">
+    <h3><b>RESUMEN DEL DOCUMENTO: </b></h3>
+    <h5><b>Ataques informáticos,  Debilidades de seguridad comúnmente explotadas</b></span> 
+      <hr>
+    </h5>
   </div>
-<!-- CIERRA tarjetas -->
+
+  <img src="./img/resumen.png" alt="Nature" style="width:100%">
+  <br><br>
+
+  <div class="w3-container">
+    <p class="text-justify"><b>¿De qué estamos hablando?</b><br>
+    Un ataque informático consiste en aprovechar alguna debilidad o falla (vulnerabilidad) en el
+    software, en el hardware, e incluso, en las personas que forman parte de un ambiente
+    informático; a fin de obtener un beneficio, por lo general de índole económico, causando un
+    efecto negativo en la seguridad del sistema, que luego repercute directamente en los activos
+    de la organización. </p>
+
+    <p class="text-justify"><b>Anatomía de un ataque informático</b><br>
+      Conocer las diferentes etapas que conforman un ataque informático brinda la ventaja de
+      aprender a pensar como los atacantes y a jamás subestimar su mentalidad.  </p>
+
+      <p  class="text-justify">La siguiente imagen
+        muestra las cinco etapas por las cuales suele pasar un ataque
+       informático al momento de ser ejecutado</p>
+
+    <img src="./img/anatomia.png" style="width:100%;"/>
+    <br><br>
+
+    <p  class="text-justify"><b>Fase 1: </b>Reconnaissance (Reconocimiento). Esta etapa involucra la obtención de
+      información (Information Gathering) con respecto a una potencial víctima que puede ser una
+      persona u organización.</p>
+
+    <p class="text-justify"><b>Fase 2:</b> Scanning (Exploración). En esta segunda etapa se utiliza la información obtenida
+      en la fase 1 para sondear el blanco y tratar de obtener información sobre el sistema víctima
+      como direcciones IP, nombres de host, datos de autenticación, entre otros. </p>
+
+    <p class="text-justify"><b>Fase 3:</b> Gaining Access (Obtener acceso). En esta instancia comienza a materializarse el
+      ataque a través de la explotación de las vulnerabilidades y defectos del sistema (Flaw
+      exploitation) descubiertos durante las fases de reconocimiento y exploración. </p>
+
+    <p class="text-justify"><b>Fase 4:</b> Maintaining Access (Mantener el acceso). Una vez que el atacante ha conseguido
+        acceder al sistema, buscará implantar herramientas que le permitan volver a acceder en el
+        futuro desde cualquier lugar donde tenga acceso a Internet. Para ello, suelen recurrir a
+        utilidades backdoors, rootkits y troyanos.</p> 
+
+    <p class="text-justify"><b>Fase 5:</b> Covering Tracks (Borrar huellas). Una vez que el atacante logró obtener y
+      mantener el acceso al sistema, intentará borrar todas las huellas que fue dejando durante la
+      intrusión para evitar ser detectado por el profesional de seguridad o los administradores de la
+      red. En consecuencia, buscará eliminar los archivos de registro (log) o alarmas del Sistema
+      de Detección de Intrusos (IDS).</p>
+
+      <p class="text-justify"><b>Aspectos de seguridad que compromete un ataque </b><br>
+        La seguridad consta de tres elementos fundamentales que forman parte de los objetivos que
+        intentan comprometer los atacantes. Estos elementos son la confidencialidad, la integridad y
+        la disponibilidad de los recursos. <br><br>
+
+       <b>Confidencialidad:</b> Un atacante podría robar información sensible como contraseñas u otro
+        tipo de datos que viajan en texto claro a través de redes confiables, atentando contra la
+        confidencialidad al permitir que otra persona, que no es el destinatario, tenga acceso a los
+        datos. Un ejemplo que compromete este elemento es el envenenamiento de la tabla ARP
+        (ARP Poisoning).<br><br>
+
+        <b>Integridad:</b> Mientras la información se transmite a través del protocolo de comunicación, un
+        atacante podría interceptar el mensaje y realizar cambios en determinados bits del texto
+        cifrado con la intención de alterar los datos del criptograma. Este tipo de ataques se
+        denomina Bit-Flipping y son considerados ataques contra la integridad de la información.<br><br>
+
+        <b>Disponibilidad:</b> En este caso, un atacante podría utilizar los recursos de la organización,
+        como el ancho de banda de la conexión DSL para inundar de mensaje el sistema víctima y
+        forzar la caída del mismo, negando así los recursos y servicios a los usuarios legítimos del
+        sistema. Esto se conoce como Denial of Service (DoS) y atenta directamente contra la
+        integridad de la información.
+      </p>
+
+      <hr>
+
+      <h3 id="nn"><b>- Debilidades de seguridad comúnmente explotadas</b></h3>
+
+      <p class="text-justify">Afortunadamente, en la actualidad existe una gama muy amplia de herramientas de
+        seguridad lo suficientemente eficaces que permiten obtener un adecuado nivel de seguridad
+        ante intrusiones no autorizadas haciendo que la labor de los atacantes se transforme en un
+        camino difícil de recorrer</p>
+
+        <img src="./img/can.jpg" alt="Nature" style="width:100%">
+      <br><br>
+
+        <p class="text-justify"><b id="n1">Ingeniería Social</b><br><br>
+          Sin embargo, más allá de cualquiera de los esquemas de seguridad que una organización
+          pudiera plantear, existen estrategias de ataque que se basan en el engaño y que están
+          netamente orientadas a explotar las debilidades del factor humano: la Ingeniería Social. Los
+          atacantes saben cómo utilizar estas metodologías y lo han incorporado como elemento
+          fundamental para llevar a cabo cualquier tipo de ataque. <br><br>
+          Si bien esta técnica es utilizada en cualquier ámbito, en lo que a informática se refiere,
+          consiste en la obtención de información sensible y/o confidencial de un usuario cercano a
+          una sistema u organización explotando ciertas características que son propias del ser
+          humano. <br><br>
+        
+         <b>Factor Insiders</b> <br><br>
+          Cuando se habla sobre las personas que se dedican a atacar sistemas informáticos, se
+          asume que se trata de alguien desconocido que realiza el ataque y maneja todo desde un
+          lugar remoto llevándolo a cabo a altas horas de la noche. Aunque en algunos casos puede
+          ser cierto, varios estudios han demostrado que la mayoría de las violaciones de seguridad
+          son cometidos por el Factor Insiders, es decir, por los mismos empleados desde dentro de
+          la Institución u Organización.<br><br>
+
+          Una de las formas más eficaces que posee un atacante para romper los esquemas de
+          seguridad, es desde el interior de la organización. Por ejemplo, el atacante podría conseguir
+          un empleo en la organización que desea atacar y obtener el suficiente nivel de confianza en
+          la organización para luego explotar los puntos de acceso. Del mismo modo, cualquier
+          integrante puede convertirse en un empleado disgustado y decidir robar información y/o
+          causar daños como una forma de venganza<br><br>
+        
+         <b>Códigos maliciosos</b> <br><br>
+          Los códigos maliciosos, o malware, constituyen también una de las principales amenazas
+          de seguridad para cualquier Institución u Organizaciones y aunque parezca un tema trivial,
+          suele ser motivo de importantes pérdidas económicas.<br><br>
+
+          Esta amenaza se refiere a programas que causan algún tipo de daño o anomalía en el
+          sistema informático. Dentro de esta categoría se incluyen los programas troyanos, gusanos,
+          virus informáticos, spyware, backdoors, rootkits, keyloggers, entre otros.<br><br>
+
+          Actualmente, casi el 80% de los ataques informáticos llevados a cabo por códigos
+          maliciosos, se realizan a través de programas troyanos.
+           Este tipo de malware ingresa a un
+          sistema de manera completamente subrepticia activando una carga dañina, denominada
+          payload, que despliega las instrucciones maliciosas.<br><br>
+        
+         <b>Contraseñas</b> <br><br>
+          Otro de los factores comúnmente explotados por los atacantes son las contraseñas. Si bien
+          en la actualidad existen sistemas de autenticación complejos, las contraseñas siguen, y
+          seguirán, siendo una de las medidas de protección más utilizadas en cualquier tipo de
+          sistema informático.<br><br>
+
+          En consecuencia, constituyen uno de los blancos más buscados por atacantes informáticos
+          porque conforman el componente principal utilizado en procesos de autenticación simple
+          (usuario/contraseña) donde cada usuario posee un identificador (nombre de usuario) y una
+          contraseña asociada a ese identificador que, en conjunto, permiten identificarse frente al
+          sistema.<br><br>
+
+          En este tipo de proceso, llamado de factor simple, la seguridad del esquema de
+          autenticación radica inevitablemente en la fortaleza de la contraseña y en mantenerla en
+          completo secreto, siendo potencialmente vulnerable a técnicas de Ingeniería Social cuando
+          los propietarios de la contraseña no poseen un adecuado nivel de capacitación que permita
+          prevenir este tipo de ataques.<br><br>
+        
+          <b>Configuraciones predeterminadas</b><br><br>
+
+          Las configuraciones por defecto, tanto en los sistemas operativos, las aplicaciones y los
+          dispositivos implementados en el ambiente informático, conforman otra de las debilidades
+          que comúnmente son poco atendidas por pensar erróneamente que se tratan de factores
+          triviales que no se encuentran presentes en la lista de los atacantes.<br><br>
+
+          Sin embargo, las configuraciones predeterminadas hacen del ataque una tarea sencilla para
+          quien lo ejecuta ya que es muy común que las vulnerabilidades de un equipo sean
+          explotadas a través de códigos exploit donde el escenario que asume dicho código se basa
+          en que el objetivo se encuentra configurado con los parámetros por defecto<br><br>
+        
+          <img src="./img/cb3.jpg" alt="Nature" style="width:100%">
+          <br><br>
+        <b id="n2"> OSINT (Open Source Intelligence)</b><br><br>
+       
+        Los atacantes, sobre todo los atacantes externos, aprenden constantemente técnicas de
+        ataque que le permiten penetrar los esquemas de seguridad por más complejos que sean.
+        En consecuencia, la pregunta que inmediatamente viene a colación es ¿cómo lo logran?, y
+        aunque la respuesta pudiera parecer un tanto compleja, resulta más sencilla de lo que se
+        imagina. La respuesta es investigación.<br><br>
+
+        Una de las primeras facetas de un ataque informático, consiste en la recolección de
+        información a través de diferentes técnicas como reconnaissance, discovery, footprinting o
+        Google Hacking; y precisamente, Open Source Intelligence (Inteligencia de fuentes
+        abiertas) se refiere a la obtención de información desde fuentes públicas y abiertas.<br><br>
+
+        La información recolectada por el atacante, no es más que la consecuencia de una detallada
+        investigación sobre el objetivo, enfocada a obtener toda la información pública disponible
+        sobre la organización desde recursos públicos. En este aspecto, un atacante gastará más
+        del 70% de su tiempo en actividades de reconocimiento y obtención de información por que
+        cuanto más aprende el atacante sobre el objetivo, más fácil será llevar a cabo con éxito el
+        ataque<br><br></p>
+
+      
+
+  </div>
+</div>
+
+</div>
+
+<!-- Introduction menu -->
+<div class="w3-col l4">
+<!-- About Card -->
+<div class="w3-card w3-margin w3-margin-top">
+<img src="./img/logo.png" style="width:100%">
+  <div class="w3-container w3-white">
+    <h4><b>HECTOR ENRIQUE MORALES BOLAÑOS</b></h4>
+    <p><b>MATERIA: </b>SEGURIDAD INFORMATICA</p>
+    <p><b>CARRERA: </b>LICENCIATURA EN CIENCIAS DE LA COMPUTACION </p>
+    <p><b>UNIVERSIDAD MONSEÑOR OSCAR ARNULFO ROMERO</b></p>
+  </div>
+  <br>
+</div><hr>
+
+<!-- Posts -->
+<div class="w3-card w3-margin">
+  <div class="w3-container w3-padding">
+    <h4>Partes Populares</h4>
+  </div>
+  <ul class="w3-ul w3-hoverable w3-white">
+   <a href="#nn"> <li class="w3-padding-16">
+    <img src="./img/cb2.png" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+      <span class="w3-large">Debilidades de seguridad comúnmente explotadas</span><br>
+      
+    </li></a>
+    <a href="#n1"> <li class="w3-padding-16">
+      <img src="./img/cb1.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+      <span class="w3-large">Ingeniería Social</span><br>
+    
+    </li> </a>
+    <a href="#n2"><li class="w3-padding-16">
+      <img src="./img/mo.png" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+      <span class="w3-large">OSINT (Open Source Intelligence)</span><br>
+      <br>
+     
+    </li>   </a>
+   
+  </ul>
+</div>
+
+
+</div>
+
+<!-- END GRID -->
+</div><br>
+
+<!-- END w3-content -->
+</div>
+
+<!-- Footer -->
 
 <%- include("template/footer") %> 
