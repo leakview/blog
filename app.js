@@ -11,6 +11,10 @@ app.use(express.static(__dirname + "/public"))
 
 app.get('/', (req, res) => {
     // console.log(__dirname)
+    res.render("first");
+})
+
+app.get('/resumen', (req, res) => {
     res.render("index");
 })
 
@@ -22,6 +26,9 @@ app.get('/caso2', (req, res) => {
     res.render("caso2");
 })
 
+app.get('/first', (req, res) => {
+    res.render("first");
+})
 app.use((req, res, next) => {
     res.status(404).render("404", {
         titulo: "title", 
